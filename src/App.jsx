@@ -26,7 +26,7 @@ function LandingPage() {
           </button>
         </div>
         <div className="aboutus_container">
-          <AboutUs/>
+          <AboutUs />
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@ function LandingPage() {
 
 function App() {
   return (
-    <Router basename="/shoppingreact">
+    <Router>
       <div className="app-container">
         <Routes>
           <Route path="/" element={<LandingPage />} />

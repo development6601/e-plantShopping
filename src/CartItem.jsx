@@ -73,11 +73,11 @@ const CartItem = () => {
         </svg>
       </Link>
 
-      <div className="cart-container">
+    <div className="cart-container">
         <div className="cart-header">
           <h1 className="cart-title">Shopping Cart</h1>
           <p className="cart-subtitle">{cart.length} {cart.length === 1 ? 'item' : 'items'} in your cart</p>
-        </div>
+              </div>
 
         {cart.length === 0 ? (
           <div className="empty-cart">
@@ -142,10 +142,10 @@ const CartItem = () => {
                       </svg>
                       Remove
                     </button>
-                  </div>
-                </div>
-              ))}
             </div>
+          </div>
+        ))}
+      </div>
 
             <div className="cart-summary">
               <div className="summary-card">

@@ -223,7 +223,7 @@ function ProductList() {
             {/* Products Grid */}
             <div className="product-grid-container">
                 {filteredPlants.length > 0 ? (
-                    <div className="product-grid">
+                <div className="product-grid">
                         {filteredPlants.map((plant) => (
                             <div key={plant.id} className="product-card">
                                 <div className="product-image-wrapper">
@@ -243,12 +243,12 @@ function ProductList() {
                                 </div>
                             </div>
                         ))}
-                    </div>
-                ) : (
+                </div>
+            ) : (
                     <div className="no-products">
                         <p>No products found in this category.</p>
                     </div>
-                )}
+            )}
             </div>
         </div>
     );
