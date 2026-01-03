@@ -1,1 +1,2 @@
-# coding-project-template
+Project Name : e-plantShopping
+- React Redux Project
